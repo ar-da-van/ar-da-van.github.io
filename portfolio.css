@@ -1,0 +1,435 @@
+.jumbotron {
+	height: 80%;
+}
+.options {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+h1 {
+	font-family: verdana;
+	font-weight: bolder;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	letter-spacing: 10px;
+	display: block;
+}
+.bottom {
+	height: 20%;
+}
+h2 {
+	font-family: verdana;
+	font-weight: lighter;
+	color: white;
+	font-size: 100%;
+	text-align: center;
+}
+h3 {
+	font-family: verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	letter-spacing: 5px;
+}
+h4 {
+	font-family: verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+}
+h5 {
+	font-family: verdana;
+	color: white;
+	font-size: 125%;
+	font-weight: lighter;
+}
+h6 {
+	float: right;
+	display: inline;
+	font-size: 200%;
+	font-family: verdana;
+}
+h7 {
+	font-family: verdana;
+	font-weight: bold;
+	color: black;
+	font-size: 150%;
+	text-align: center;
+	display: block;
+}
+p {
+	font-family: verdana;
+	color: black;
+	font-size: 100%;
+	text-align: left;
+	line-height: 200%;
+}
+p.italic {
+	font-style: italic;
+}
+p a {
+	line-height: 50%;
+}
+a.clickable {
+	background-color: #bcceac;
+}
+
+/*.home {
+	background-image: url('Pictures/homepage.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+}*/
+#homegif {
+	width:40%;
+}
+a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: verdana;
+}
+#icons {
+	width: 40%;
+}
+.container {
+	display: flex;
+}
+.container > div {
+	flex: 1;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: right;
+}
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 100%;
+
+}
+li h5 {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: verdana;
+
+
+}
+li a:hover:not(.active) {
+	/*to put in hover activity*/
+}
+.active {
+	background-color: #1A416D;
+}
+#IFRM{
+    float:center;
+    padding-right: 10px;
+    position:relative;
+}
+iframe {
+	width:560px;
+	height:315px;
+}
+#NAME {
+	color: white;
+	float: left;
+}
+#headshot {
+	width: 40%;
+}
+#headshot2 {
+	width: 75%;
+}
+#PDFS {
+	width: 100%;
+	height: 100%;
+}
+
+/* FOR MOBILE******************************************************************************************** */
+@media screen and (max-width: 1080px) {
+	.jumbotron {
+	height: 80%;
+	text-align: center;
+	}
+	#NAME {
+		color: white;
+		text-align: center;
+		display: block;
+	}
+	h1 {
+		font-family: verdana;
+		font-weight: bolder;
+		color: white;
+		font-size: 200%;
+		text-align: center;
+		display: block;
+	}
+	h2 {
+		font-family: verdana;
+		font-weight: lighter;
+		color: black;
+		font-size: 100%;
+		text-align: center;
+	}
+	/*.home {
+		background-image: url('http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/warriors/images/Happy_Steph300x200.gif');
+	    background-size: 200%;
+	    background-repeat: no-repeat;
+	    text-align: center;
+	}*/
+	#homegif {
+		width:90%;
+	}
+	.bottom {
+		height: 20%;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		text-align: center;
+	}
+	li {
+		text-align: center;
+	}
+	li a {
+		float: right;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 150%;
+
+	}
+	.container {
+		display: block;
+	}
+	h4 {
+		font-family: verdana;
+		font-weight: bold;
+		color: white;
+		font-size: 150%;
+		text-align: center;
+	}
+	h7 {
+		font-family: verdana;
+		font-weight: bold;
+		color: black;
+		font-size: 150%;
+		text-align: center;
+		display: block;
+	}
+	#icons {
+		height: 30%;
+		width: 30%;
+	}
+	#headshot {
+		width: 80%;
+	}
+	#headshot2 {
+		width: 85%;
+	}
+
+	/*DROPDOWN STUDD */
+	/*THIS IS THE BLOG DROPDOWN STUFF */
+	.dropbtn {
+	    background-color: black;
+	    color: white;
+	    padding: 16px;
+	    font-size: 16px;
+	    border: none;
+	    cursor: pointer;
+	    position: relative;
+	    width: 100%;
+	}
+
+	.dropbtn:hover, .dropbtn:focus {
+	    background-color: black;
+	}
+
+	.dropdown {
+	    position: relative;
+	    display: block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: relative;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    overflow: auto;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: inline-block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.show {display:block;}
+
+	#myDropdown p{
+		float: left;
+	}
+	#myBtn {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn2 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn3 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn4 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn5 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn6 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn7 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#myBtn8 {
+		font-family: verdana;
+		font-size: 200%;
+	}
+	#ICONPHOTO {
+		height: 150px;
+	}
+	iframe {
+		width:100%;
+	}
+	#PDFS {
+		width: 100%;
+		height: 100%;
+	}
+}
+/**********************************************************************************************************/
+
+/*DROPDOWN STUDD */
+/*THIS IS THE BLOG DROPDOWN STUFF */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-content a:hover {background-color: #bcceac}
+
+.show {display:block;}
+
+#myDropdown p{
+	float: left;
+}
+#myBtn {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn2 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn3 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn4 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn5 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn6 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn7 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn8 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn100 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn101 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#ICONPHOTO {
+	height: 150px;
+}
+
+
+

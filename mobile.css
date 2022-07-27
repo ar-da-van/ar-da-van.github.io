@@ -1,0 +1,42 @@
+.jumbotron {
+	height: 80%;
+	text-align: center;
+}
+h1 {
+	font-family: verdana;
+	font-weight: bolder;
+	color: black;
+	font-size: 200%;
+	text-align: center;
+	display: block;
+}
+h2 {
+	font-family: verdana;
+	font-weight: lighter;
+	color: black;
+	font-size: 100%;
+	text-align: center;
+}
+.home {
+	background-image: url('http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/warriors/images/Happy_Steph300x200.gif');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bottom {
+	height: 20%;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.container {
+	display: block;
+}
+h4 {
+	font-family: verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+}
